@@ -1,0 +1,72 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Hub</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script>
+        $(function(){
+        $(".toggle").on("click", function(){
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+            }
+            else{
+                $(".item").addClass("active");
+            }
+        });
+    });
+    </script>
+</head>
+<title>Example</title>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo">Political Hub!</li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <!-- <li class="item button"><a href="">Login</a></li>
+            <li class="item button secondary"><a href="">Sign Up</a></li> -->
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <div class="summary">
+        <span class="side back">
+            <p>
+                <a href="javascript:history.back()">Go Back</a>
+            </p>
+        </span>
+        <span class="mid"></span>
+        <span class="side"> </span>
+    </div>
+
+    <main>
+        <span class="side"></span>
+        <span class="mid main">
+            <h1>Why I don't trust news</h1><br>
+            <ol>
+                <li>
+                <p>
+                    1. <a href="https://www.cnn.com/2020/08/28/us/kenosha-wisconsin-protest-shooting-victims/index.html">CNN</a>, 
+                    <a href="https://www.chicagotribune.com/news/breaking/ct-kenosha-protests-anthony-huber-20200827-rz2bvmy53railizfsdwskiq55q-story.html">Chicago Tribune</a>, 
+                    <a href="https://chicago.suntimes.com/crime/2020/8/27/21404905/anthony-huber-kenosha-protester-jacob-blake">Chicago Sun Times</a>,
+                    and more report on Anthony Hurbur as a martyr and a hero for attacking an armed 17 year old. 
+                    The perspective is that the 17 year old was an armed extremist. After doing research and looking at footage, there is a whole different story to be seen.
+                    <a href="https://twitter.com/stillgray/status/1298704864843685890">Video one</a> first person is shot
+                    <a href="https://twitter.com/MrAndyNgo/status/1298848184228143104?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1298848184228143104%7Ctwgr%5E&ref_url=https%3A%2F%2Fwww.thegatewaypundit.com%2F2020%2F08%2Fupdate-evidence-shows-young-kenosha-shooter-kyle-rittenhouse-may-acted-self-defense-three-blm-criminals-prior-arrest-records-video%2F">Video Two</a> 
+                    second and third person shot. The 37 year old was a sex offender. The skateboarder history of criminal charges including domestic violence on multiple accounts<br><br>
+                    Additional Sources: <a href="https://www.thegatewaypundit.com/2020/08/update-evidence-shows-young-kenosha-shooter-kyle-rittenhouse-may-acted-self-defense-three-blm-criminals-prior-arrest-records-video/">Gateway Pundit</a>, <a href="https://www.redstate.com/streiff/2020/08/27/the-men-shot-in-kenosha-were-felons-who-were-shot-while-acting-like-felons/">RedState</a>
+                </p>
+                </li> <br><br><br>
+                <li>2. XXXXX</li>
+                <li>3. XXXXX</li>
+                <li>4. XXXXX</li>
+                <li>5. XXXXX</li>
+            </ol>
+        </span>
+        <span class="side"></span>
+    </main>
+
+
+</body>

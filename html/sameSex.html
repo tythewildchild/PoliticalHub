@@ -1,0 +1,57 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Hub</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script>
+        $(function(){
+        $(".toggle").on("click", function(){
+            if($(".item").hasClass("active")){
+                $(".item").removeClass("active");
+            }
+            else{
+                $(".item").addClass("active");
+            }
+        });
+    });
+    </script>
+</head>
+<title>Example</title>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo">Political Hub!</li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="#">About</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <!-- <li class="item button"><a href="">Login</a></li>
+            <li class="item button secondary"><a href="">Sign Up</a></li> -->
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+
+    <div class="summary">
+        <span class="side back">
+            <p>
+                <a href="javascript:history.back()">Go Back</a>
+            </p>
+        </span>
+        <span class="mid"></span>
+        <span class="side"> </span>
+    </div>
+
+    <main>
+        <span class="side"></span>
+        <span class="mid main">
+            <h1>Why I don't believe in Same-Sex Relationships</h1><br>
+            <ol>
+                <li>Violence is more common in homosexual relationships. <a href="https://www.bbc.com/news/magazine-29994648">link</a></li>
+                <li>Multiple health risks when practicing gay sex. <a href="https://www.catholiceducation.org/en/marriage-and-family/sexuality/the-health-risks-of-gay-sex.html">link</a></li>
+            </ol>
+        </span>
+        <span class="side"></span>
+    </main>
+
+
+</body>
